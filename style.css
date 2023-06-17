@@ -6,19 +6,29 @@ body {
     margin: 0px;
     display: flex;
     flex-direction: column;
+    align-content: flex-start;
 }
+
 .header {
-    height: 100px;
     background: #1F2937; 
     display: flex;
     justify-content: space-around;
-    gap: 100px;
-    padding: 16px 0px;
+    flex-wrap: wrap;
+}
+
+.header-top {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 300px;
+    flex-wrap: wrap;
 }
 
 .logo {
-    max-width: 100px;
-    max-height: 80px;
+    max-width: 150px;
+    max-height: 100px;
  }
 
 .footer {
@@ -35,18 +45,24 @@ body {
 .content-one {
     background-color: #1F2937; 
     font-family: Roboto, sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    padding: 72px 0px 112px 0px;
 }
 
 .heading {
     font-size: 48px;
     font-weight: extra-bold;
     color: #F9FAF8;
+    margin-bottom: 12px;
 }
 
 .heading-sec {
     font-size: 24px;
     font-weight: medium;
     color: #F9FAF8;
+    margin-bottom: 12px;
 }
 
 .header-text {
@@ -54,6 +70,19 @@ body {
     font-weight: 100;
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.center {
+    text-align: center;
+}
+
+.bold {
+    font-weight: 400;
+    margin-top: 12px;
+}
+
+.small {
+    font-size:small
 }
 
 .bed {
@@ -74,7 +103,6 @@ ul {
     padding: 0;
     margin: 0;
     display: flex;
-
 }
 
 button {
@@ -84,9 +112,9 @@ button {
     font-weight: 600;
     border-radius: 8px;
     border: none;
+    padding: 8px 20px;
+    margin-top: 16px;
 }
-
-
 
 .content-two {
  
