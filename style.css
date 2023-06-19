@@ -115,13 +115,49 @@ button {
     margin-top: 16px;
 }
 
-.content-two {
- 
+.content-sec {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 50px 0px 100px 0px; 
+}
+
+.content-sec-heading {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.item {
+    width: 200px;
+    font-size: 16px;
+    font-weight: 200;
+    font-style: italic;
+    text-align: center;
+}
+
+.item div {
+    margin-top: 5px;
+}
+.content-sec-imgages {
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    border: 4px solid #3882F6;
+    margin-bottom: 16px;
+}
+
+.checked {
+    color: orange;
 }
 
 .content-three {
- background: #E5E7EB;
-
+    background: #E5E7EB;
 }
 
 
