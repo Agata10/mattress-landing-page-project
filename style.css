@@ -115,6 +115,7 @@ button {
     margin-top: 16px;
 }
 
+/*Content 2*/
 .content-sec {
     display: flex;
     justify-content: center;
@@ -156,8 +157,31 @@ button {
     color: orange;
 }
 
+/*Content 3*/
+
 .content-three {
     background: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 60px;
+    padding: 100px 0px;
+
 }
 
+i {
+    font-size: 70px;
+    color: #1F2937;
+}
+
+.item-three {
+    width: 200px;
+}
+
+.content-three-text {
+    color: #1F2937;
+    font-weight: 200;
+    font-size: 24px;
+}
 
