@@ -10,7 +10,7 @@
 
 
 ## General information
-It's my frist landing page using HTML and CSS. It's a business webpage for mattress company. Game is one of the task from [The Odin Project](https://www.theodinproject.com/lessons/foundations-landing-page) .
+It's my frist landing page using HTML and CSS. It's a business webpage for mattress company. Landing page is one of the task from [The Odin Project](https://www.theodinproject.com/lessons/foundations-landing-page) .
 
 ## Technologies
 * CSS3
