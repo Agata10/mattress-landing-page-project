@@ -18,8 +18,8 @@ It's my frist landing page using HTML and CSS. It's a business webpage for mattr
 
 ## Screenshots
 ![Webpage](./images/page1.png)
-![Webpage](./img/page2.png)
-![Webpage](./img/page3.png)
+![Webpage](./images/page2.png)
+![Webpage](./images/page3.png)
 
 ## Link to webpage
 https://agata10.github.io/mattress-landing-page-project/
